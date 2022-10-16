@@ -59,9 +59,30 @@ public class Massiv {
             if (massive4[i] % 2 != 0) massive4[i] = 0;
             System.out.print(massive4[i] + "  ");
         }
+        System.out.println();
 
+
+        //Задача 5
+        System.out.println();
+
+
+        int[] massive5 = new int[12];
+        for (int i = 0; i < massive5.length; i++) {
+            massive5[i] = (int) (Math.random() * 15);
+            System.out.print(massive5[i] + " ");
+        }
+        int max = massive5[0], index = 0;
+        for (int i = 0; i < massive5.length; i++) {
+            if (massive5[i] > max) {
+                max = massive5[i];
+                index = 1;
+                System.out.println();
+            }
+        }
+        System.out.print("Maximum value " + max + " last number index " + index);
     }
 }
+
 
 
 
