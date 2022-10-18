@@ -6,7 +6,6 @@ public class Phone {
         Phone1 phone1 = new Phone1(+332525553,"Samsung");
         Phone1 phone2 = new Phone1();
         phone.receiveCall();
-        phone1.receiveCall();
         phone.getNumber();
         phone1.getNumber();
         phone2.getNumber();
@@ -35,8 +34,8 @@ class Phone1 {
         String name1 ="Tolya";
         String name2 ="Oleg";
         String name3 = "Sasha";
-        System.out.println("Звонит " + name3 +" "+  +number  );
-        System.out.println("Звонит " + name1 +" " +number  );
+        System.out.println("Звонит " + name3 +" +"  + number  );
+        System.out.println("Звонит " + name1 +" +" +number  );
         System.out.println("Звонит " + name2 +"\n" );
 
     }
